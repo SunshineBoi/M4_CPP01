@@ -1,22 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   find_and_replace.hpp                               :+:      :+:    :+:   */
+/*   find_and_replace.h                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kong <kong@student.42singapore.sg>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/26 15:10:06 by kong              #+#    #+#             */
-/*   Updated: 2026/08/26 17:53:27 by kong             ###   ########.fr       */
+/*   Created: 2026/08/26 17:52:24 by kong              #+#    #+#             */
+/*   Updated: 2026/08/26 17:53:12 by kong             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FIND_AND_REPLACE_HPP
-# define FIND_AND_REPLACE_HPP
+#ifndef FIND_AND_REPLACE_H
+# define FIND_AND_REPLACE_H
 
-# include "find_and_replace.h"
-
-bool		read_file(std::string filename, std::string& out);
-bool		write_file(std::string filename, std::string res);
-std::string	replace_all(std::string buf, std::string s1, std::string s2);
+# include <fstream>
+# include <iterator>
+# include <iostream>
+# include <string>
 
 #endif
