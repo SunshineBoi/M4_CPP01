@@ -6,7 +6,7 @@
 /*   By: kong <kong@student.42singapore.sg>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/25 10:49:46 by kong              #+#    #+#             */
-/*   Updated: 2026/08/25 11:35:46 by kong             ###   ########.fr       */
+/*   Updated: 2026/08/27 19:06:47 by kong             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #ifndef HUMANB_HPP
 # define HUMANB_HPP
 
-#include "HumanB.h"
+# include "Weapon.hpp"
 
 class HumanB
 {

@@ -6,14 +6,14 @@
 /*   By: kong <kong@student.42singapore.sg>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/25 10:24:18 by kong              #+#    #+#             */
-/*   Updated: 2026/08/25 12:12:33 by kong             ###   ########.fr       */
+/*   Updated: 2026/08/27 19:07:04 by kong             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef HUMANA_HPP
 # define HUMANA_HPP
 
-#include "HumanA.h"
+# include "Weapon.hpp"
 
 class HumanA
 {
