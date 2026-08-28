@@ -6,7 +6,7 @@
 /*   By: kong <kong@student.42singapore.sg>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/22 17:31:47 by kong              #+#    #+#             */
-/*   Updated: 2026/08/27 19:08:25 by kong             ###   ########.fr       */
+/*   Updated: 2026/08/28 11:22:44 by kong             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <string>
 # include <iostream>
+# include <new>
 
 class Zombie
 {
