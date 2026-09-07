@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   find_and_replace.cpp                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kong <kong@student.42singapore.sg>         +#+  +:+       +#+        */
+/*   By: kong <kong@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/26 15:09:53 by kong              #+#    #+#             */
-/*   Updated: 2026/08/26 15:23:36 by kong             ###   ########.fr       */
+/*   Updated: 2026/09/07 22:50:01 by kong             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ bool	read_file(std::string filename, std::string& out)
 bool	write_file(std::string filename, std::string res)
 {
 	// 5. output into new file with Output File Stream
-	std::ofstream new_file((filename).c_str());
+	std::ofstream new_file(filename.c_str());
 	if (new_file.is_open())
 	{
 		new_file << res;

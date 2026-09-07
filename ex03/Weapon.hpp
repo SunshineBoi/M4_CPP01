@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Weapon.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kong <kong@student.42singapore.sg>         +#+  +:+       +#+        */
+/*   By: kong <kong@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/24 22:38:53 by kong              #+#    #+#             */
-/*   Updated: 2026/08/27 19:06:25 by kong             ###   ########.fr       */
+/*   Updated: 2026/09/07 20:42:08 by kong             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,8 @@ public:
 	Weapon& operator=(const Weapon& other);
 	~Weapon();
 
-	const std::string& getType();
-	void	setType(std::string weapon_type);
+	const std::string&	getType();
+	void				setType(std::string weapon_type);
 };
 
 #endif

@@ -3,17 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   find_and_replace.hpp                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kong <kong@student.42singapore.sg>         +#+  +:+       +#+        */
+/*   By: kong <kong@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/26 15:10:06 by kong              #+#    #+#             */
-/*   Updated: 2026/08/26 17:53:27 by kong             ###   ########.fr       */
+/*   Updated: 2026/09/07 22:38:50 by kong             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FIND_AND_REPLACE_HPP
 # define FIND_AND_REPLACE_HPP
 
-# include "find_and_replace.h"
+# include <fstream>
+# include <iterator>
+# include <iostream>
+# include <string>
 
 bool		read_file(std::string filename, std::string& out);
 bool		write_file(std::string filename, std::string res);

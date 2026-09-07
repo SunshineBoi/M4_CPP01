@@ -23,7 +23,7 @@ BUILD_DIR = build
 HEADER_DIR = includes
 
 # Source Files
-SRC_FILES := $(shell find $(SRC_DIR) -type f -name '*.cpp')
+SRC_FILES := $(SRC_DIR)/main.cpp
 OBJ_FILES := $(patsubst $(SRC_DIR)/%.cpp, $(BUILD_DIR)/%.o, $(SRC_FILES))
 
 # Executable

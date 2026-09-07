@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: kong <kong@student.42singapore.sg>         +#+  +:+       +#+         #
+#    By: kong <kong@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/06/23 14:18:51 by kong              #+#    #+#              #
-#    Updated: 2026/08/22 17:25:43 by kong             ###   ########.fr        #
+#    Updated: 2026/09/07 23:30:04 by kong             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +23,10 @@ BUILD_DIR = build
 HEADER_DIR = includes
 
 # Source Files
-SRC_FILES := $(shell find $(SRC_DIR) -type f -name '*.cpp')
+SRC_FILES := $(SRC_DIR)/main.cpp \
+             $(SRC_DIR)/newZombie.cpp \
+             $(SRC_DIR)/randomChump.cpp \
+             $(SRC_DIR)/Zombie.cpp
 OBJ_FILES := $(patsubst $(SRC_DIR)/%.cpp, $(BUILD_DIR)/%.o, $(SRC_FILES))
 
 # Executable
